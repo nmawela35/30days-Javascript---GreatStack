@@ -31,6 +31,9 @@ body{
 
 .gallery div img{
     width: 100%;
+    filter:grayscale(100%);
+    transition: transform 0.5s;
+
 }
 
 .gallery::-webkit-scrollbar{
