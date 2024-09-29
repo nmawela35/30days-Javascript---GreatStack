@@ -13,5 +13,4 @@ function generateQr(){
             qrText.classList.remove('error')
         },1000)
     }
-
 }
