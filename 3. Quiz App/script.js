@@ -103,7 +103,6 @@ function showScore(){
     nextButton.style.display = "block"
 }
 
-
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
@@ -112,7 +111,6 @@ function handleNextButton(){
         showScore();
     }
 }
-
 
 nextButton.addEventListener("click", ()=>{
     if (currentQuestionIndex < questions.length){
