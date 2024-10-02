@@ -24,5 +24,4 @@ pass.addEventListener('input', ()=>{
         pass.style.borderBlock = "#26d730"
         msg.style.color = '#26d730'
     } 
-
 })
