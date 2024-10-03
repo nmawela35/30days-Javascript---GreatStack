@@ -9,3 +9,5 @@ setInterval(()=>{
         number.innerHTML = counter + "%"
     }
 },30)
+
+//2000ms /65
